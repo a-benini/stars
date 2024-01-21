@@ -82,6 +82,9 @@
     <loc>/reference/make_intervals.html</loc>
   </url>
   <url>
+    <loc>/reference/mdim.html</loc>
+  </url>
+  <url>
     <loc>/reference/merge.html</loc>
   </url>
   <url>
@@ -94,7 +97,7 @@
     <loc>/reference/predict.stars.html</loc>
   </url>
   <url>
-    <loc>/reference/read_mdim.html</loc>
+    <loc>/reference/print_stars.html</loc>
   </url>
   <url>
     <loc>/reference/read_ncdf.html</loc>
@@ -106,9 +109,6 @@
     <loc>/reference/redimension.html</loc>
   </url>
   <url>
-    <loc>/reference/reexports.html</loc>
-  </url>
-  <url>
     <loc>/reference/st_apply.html</loc>
   </url>
   <url>
@@ -116,6 +116,9 @@
   </url>
   <url>
     <loc>/reference/st_as_stars.html</loc>
+  </url>
+  <url>
+    <loc>/reference/st_cells.html</loc>
   </url>
   <url>
     <loc>/reference/st_contour.html</loc>
@@ -139,6 +142,9 @@
     <loc>/reference/st_extract.html</loc>
   </url>
   <url>
+    <loc>/reference/st_geotransform.html</loc>
+  </url>
+  <url>
     <loc>/reference/st_intersects.stars.html</loc>
   </url>
   <url>
@@ -154,7 +160,13 @@
     <loc>/reference/st_rasterize.html</loc>
   </url>
   <url>
+    <loc>/reference/st_res.html</loc>
+  </url>
+  <url>
     <loc>/reference/st_rgb.html</loc>
+  </url>
+  <url>
+    <loc>/reference/st_rotate.html</loc>
   </url>
   <url>
     <loc>/reference/st_set_bbox.html</loc>
