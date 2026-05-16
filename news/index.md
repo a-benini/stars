@@ -1,5 +1,22 @@
 # Changelog
 
+## version 0.7-2
+
+CRAN release: 2026-04-03
+
+- do not print the `.Environment` attribute of call list elements
+
+- remove usage of `parent.env<-()` in `[<-.stars_proxy()` (considered
+  unsafe)
+
+- replace `%>%` pipe with base pipe `|>`
+
+- add documentation of [`st_normalize()`](../reference/st_normalize.md);
+  [\#766](https://github.com/r-spatial/stars/issues/766)
+
+- [`st_contour()`](../reference/st_contour.md) normalizes grids before
+  export; [\#766](https://github.com/r-spatial/stars/issues/766)
+
 ## version 0.7-1
 
 CRAN release: 2026-02-13
@@ -132,9 +149,8 @@ CRAN release: 2024-07-16
   them; [\#689](https://github.com/r-spatial/stars/issues/689)
 
 - [`st_crop()`](../reference/st_crop.md) gains an argument `normalize`;
-  when set to `TRUE`
-  [`st_normalize()`](https://r-spatial.github.io/sf/reference/st_normalize.html)
-  is called on the returned value;
+  when set to `TRUE` [`st_normalize()`](../reference/st_normalize.md) is
+  called on the returned value;
   [\#685](https://github.com/r-spatial/stars/issues/685),
   [\#686](https://github.com/r-spatial/stars/issues/686)
 
